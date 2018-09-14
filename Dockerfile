@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
       gcc-5 \
       g++-6 \
       gcc-6 \
+      g++-8 \
+      gcc-8 \
       make \
       valgrind \
       wget \
