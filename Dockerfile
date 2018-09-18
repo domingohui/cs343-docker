@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
       wget \
       vim \
       iputils-ping \
+      time \
     && rm -rf /var/lib/apt/lists/*
 
 # Setup the linking for g++ and gcc commands
