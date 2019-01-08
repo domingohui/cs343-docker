@@ -8,8 +8,8 @@ Note that this setup is for the Fall 2018 session of CS343. It may need to be mo
 First, make sure you have [docker](https://www.docker.com/) installed!
 
 ```
-docker pull jerryliu55/cs343-docker
-docker run -it -v $(pwd)/<assignment folder>:/root/<assignment folder> jerryliu55/cs343-docker
+docker build --tag=cs343 .
+./run_cs343_image.sh
 ```
 
 ### Usage
